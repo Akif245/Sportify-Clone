@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&family=Varela+Round&display=swap');
+
+body{
+          background-color: rgb(0, 0, 0);
+
+}
+*{
+          margin:0;
+          padding:0;
+}
+nav{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* width: 1350px; */
+border: 1px solid rgb(255, 255, 255);
+}
+.name{
+          display: flex;
+          font-weight: bolder; 
+          font-size: 1.1rem;  
+          padding: 0px;       
+}
+
+
+
+nav ul {
+          display: flex;
+          height: 50px;
+          background-color: black;
+          color: white;
+          list-style: none;
+          padding: 2px;
+          
+}
+
+img{
+          
+          
+
+          width: 45px;
+          height: 45px;
+} 
+nav ul li{
+          padding: 0 10px;
+          margin: 12px;
+          cursor: pointer;
+}
+.container{
+          min-height: 64vh;
+          width: 60%;
+          display: flex;
+          margin: 23px auto;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          padding: 10px;
+          border-radius: 12px;
+          background-color: black;
+          color: white;
+          background-image:url(bg.jpg);
+          background-size: auto;
+          background-repeat: repeat;
+          
+          
+}
+.bottom{
+          position: sticky;
+          height: 100px;
+          background-color: black;
+          color: white;
+          bottom: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          
+         
+}
+.icons i {
+          cursor: pointer;
+}
+#myProgressBar{
+          height: 60px;
+          width: 77vw;
+          cursor: pointer;
+}
+.songItem{
+          height: 41px;
+          display: flex;
+          background-color: white;
+          color: black;
+          /* width: 85%; */
+          margin: 12px 0;
+          align-items: center;
+          justify-content: space-between;
+          border-radius: 35px;
+
+}
+.songItem img{
+          width: 50px;
+          margin: 0 23px;
+          border-radius: 35px;
+          margin: 0 ;
+
+}
+.timespan {
+          margin: 0 23px;
+          /* cursor: pointer; */
+          
+}
+.songcontainer{
+          margin-top: 30px;
+}
+.songinfo{
+          position: absolute;
+          left: 10vh;
+          
+}
+.songinfo img{
+          width: 86px;
+          height: 28px;
+          opacity: 0;
+}
+.songlistplay{
+          cursor: pointer;
+}
+
